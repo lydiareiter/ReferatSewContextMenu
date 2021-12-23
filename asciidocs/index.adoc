@@ -18,6 +18,7 @@ ifdef::backend-html5[]
 
 In dieser Stunde haben wir uns mit SSH Keys uns bei GitHub angemeldet. Dazu haben wir uns einen SSH-Key generieren lassen.
 
+[source,shell]
 ----
 ssh-keygen -t rsa -b 4096
 ----
@@ -52,6 +53,7 @@ Danach ist abwechselnd etwas in die README.md Datei geschrieben worden und dann 
 
 === Verwendete Befehle:
 
+[source,shell]
 ----
 733  echo "# 3BHITM-github-Branch" >> README.md
 
@@ -187,6 +189,7 @@ image::instanceVMS.png[]
 
 Dann haben wir den nginx Server installiert.
 
+[source,shell]
 ----
 sudo apt update
 sudo apt install nginx
@@ -199,6 +202,8 @@ Diese Stunde haben wir die Übung mit einem anderen Schüler weiter gearbeitet. 
 === Verwendete Befehle:
 
 ==== Lydia:
+
+[source,shell]
 ----
 775  cd 3bhitm-labs-eder/
   776  gedit README.md
@@ -225,6 +230,7 @@ Diese Stunde haben wir die Übung mit einem anderen Schüler weiter gearbeitet. 
 
 ==== Moritz
 
+[source,shell]
 ----
 cd ~
 cd /home/<username>
@@ -257,3 +263,6 @@ git pull
 
 == 23.12.2021
 
+=== Git Merge in Intellij
+
+image::gitIntellij.png[]

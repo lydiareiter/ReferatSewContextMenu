@@ -266,3 +266,15 @@ git pull
 === Git Merge in Intellij
 
 image::gitIntellij.png[]
+
+== 11.01.2022
+
+=== Git Merge Konflikt
+
+image:merge.png[]
+
+image:terminalMerge.png[]
+
+git stash -> Versteck dann kann man normal pullen
+
+git stash pop -> eigene Änderungen wieder zurückholen

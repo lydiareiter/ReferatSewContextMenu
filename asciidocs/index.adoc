@@ -298,4 +298,12 @@ Donnerstag Plant UML
 
 Archetype = Herleitung von einer Art
 
+SE Standart Edition (Normaler User)
+
+Enterprise Edition (Firmen)
+
+Enterprise = Firma Konzern
+
+
+
 image:mavenNeu.png[]

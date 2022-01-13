@@ -352,4 +352,29 @@ HTTP, HTML -> Internet für Menschen
 
 === Plant UML
 
-    
+==== UML als
+[plantuml, city]
+----
+@startuml
+class getCity(){
+    -city: String
+    +city getCity()
+}
+@enduml
+----
+
+Grundelemente von Programmieren
+
+* Sequenz
+
+* Schleifen
+
+* [Bedingung]
+
+
+[plantuml, myActivity]
+----
+@startuml
+include::plantuml/myActivity.puml[]
+@enduml
+----

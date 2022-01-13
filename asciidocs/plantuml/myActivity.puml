@@ -1,0 +1,11 @@
+@startuml
+start
+:Hello world;
+if (parket-Gewicht) is (> 10kg) then
+:sendet mit LKW;
+else
+:sendet mit PKW;
+endif
+:Nimm Paket in Empfang;
+stop
+@enduml

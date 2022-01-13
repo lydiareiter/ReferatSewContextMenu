@@ -281,6 +281,8 @@ git stash pop -> eigene Änderungen wieder zurückholen
 
 image:setting.png[]
 
+Enable staging area
+
 Hausübung:
 
 * Plant UML Klassendiagramm -> Projekt
@@ -296,14 +298,58 @@ Donnerstag Plant UML
 
 ==== Projekt Anlegen
 
+image:mavenNeu.png[]
+
 Archetype = Herleitung von einer Art
 
-SE Standart Edition (Normaler User)
+SE Standard Edition (normaler User)
 
 Enterprise Edition (Firmen)
 
 Enterprise = Firma Konzern
 
+=== Java
 
+==== Java ME (Mobile)
 
-image:mavenNeu.png[]
+==== Java SE
+
+===== v. 17. LTS (long term system)
+
+===== für Desktops
+
+==== EE
+
+* Applikation Server
+
+===== wurde an Community an Eclipse Foundation heißt jetzt Jakarta EE
+
+====== Micro Profile
+
+* Kein Applikation-Server vorhanden
+
+* leichter
+
+* für Cloud
+
+==== Implementierung
+
+* Quarkos (ist ein Applikation-Server) und wichtig für nächstes Jahr
+
+* Helidon
+
+* Micromout?
+
+Unterschied HTML und HTTP:
+
+* HTTP Protokoll, den Menschen die Website bringen
+
+* HTML Untergruppe XML, Website machen
+
+Rest API -> Internet für Maschinen
+
+HTTP, HTML -> Internet für Menschen
+
+=== Plant UML
+
+    

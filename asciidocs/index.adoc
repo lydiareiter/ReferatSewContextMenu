@@ -289,3 +289,13 @@ Hausübung:
 
 
 Donnerstag Plant UML
+
+== 13.01.2022
+
+=== Maven
+
+==== Projekt Anlegen
+
+Archetype = Herleitung von einer Art
+
+image:mavenNeu.png[]

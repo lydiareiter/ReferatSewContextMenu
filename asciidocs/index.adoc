@@ -278,3 +278,14 @@ image:terminalMerge.png[]
 git stash -> Versteck dann kann man normal pullen
 
 git stash pop -> eigene Änderungen wieder zurückholen
+
+image:setting.png[]
+
+Hausübung:
+
+* Plant UML Klassendiagramm -> Projekt
+* Basics of GitHub
+
+
+
+Donnerstag Plant UML

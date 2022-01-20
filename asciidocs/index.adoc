@@ -361,6 +361,8 @@ include::plantuml/myActivity.puml[]
 
 ==== V-Model:
 
+image::vmodel.jpg[]
+
 ==== Anwendungsfall
 
 [.line-overline]#Bsp:#
@@ -382,6 +384,8 @@ IMPORTANT: Akteuren, Assoziation (kein Pfeil), include (wichtiger als Vererbung)
 Inkrementell = kleine Schritte
 
 Wie kann man Vererbung verwenden? - Bild von der Tafel und dann selber zeichnen -> Aus 2 Klassen wird ein Objekt
+
+image::vererbungVerwendung.jpg[]
 
 include und extends müssen gestrichelt sein
 

@@ -355,7 +355,9 @@ include::plantuml/myActivity.puml[]
 
 == 20.01.2022
 
-=== UML Diagramm (Klassendiagramm) Präsentation (kapitel 3 2 Anwendungsfalldiag)
+=== UML Diagramm (Klassendiagramm)
+
+==== Präsentation (kapitel 3 2 Anwendungsfalldiag)
 
 ==== V-Model:
 
@@ -369,7 +371,11 @@ Spiel -> spielen
 
 PKW -> transport für Personen und Güter
 
-[.line-through]#Anwendungsanalyse, Präsentation Folie 18#
+[.line-through]#Anwendungsanalyse, Präsentation Folie 18 //<.>#
+
+<.> Bild
+
+image::3_2_folie18.png[]
 
 IMPORTANT: Akteuren, Assoziation (kein Pfeil), include (wichtiger als Vererbung)
 
@@ -385,3 +391,49 @@ IMPORTANT: Pfeile ganz richtig zeichnen
 
 IMPORTANT: genaue Ausformulierung der Anwendungsfälle (= use case)
 
+[plantuml, ucd1.png]
+-----
+@startuml
+
+left to right direction
+actor "driver" as fc
+rectangle PKW{
+    usecase "transport groods" as UCGOODS
+    usecase "transport persons" as UCPERSONS
+    usecase "cruice" as UCCRUICE
+}
+fc -- UCGOODS
+fc -- UCPERSONS
+fc -- UCCRUICE
+
+@enduml
+-----
+
+IMPORTANT: Asciidoc Callout
+
+[source, java]
+----
+return Response
+    .status(Resonse, Status, Ok) //<.>
+----
+<.> Rückgabe des HTTP-Statuscods
+
+IMPORTANT: source von den Herr Prof kopieren
+
+==== Admotions
+
+TIP: Lernen Sie die Fachbegriffe
+
+IMPORTANT: Damit Sie gut googln können
+
+==== kapitel 3 3 Zustandsmaschinen
+
+Thermostat = Temperatureinstellung
+
+image::thermostatUML.png[]
+
+IMPORTANT: 27, 45, 51, Conpients Level (Buch UML),
+
+Nicht wichtig: [.line-through]#29, ...#
+
+====

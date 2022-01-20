@@ -310,35 +310,9 @@ Enterprise = Firma Konzern
 
 === Java
 
-==== Java ME (Mobile)
+image::java.jpg[]
 
-==== Java SE
-
-===== v. 17. LTS (long term system)
-
-===== für Desktops
-
-==== EE
-
-* Applikation Server
-
-===== wurde an Community an Eclipse Foundation heißt jetzt Jakarta EE
-
-====== Micro Profile
-
-* Kein Applikation-Server vorhanden
-
-* leichter
-
-* für Cloud
-
-==== Implementierung
-
-* Quarkos (ist ein Applikation-Server) und wichtig für nächstes Jahr
-
-* Helidon
-
-* Micromout?
+IMPORTANT: Selber noch zeichnen
 
 Unterschied HTML und HTTP:
 
@@ -378,3 +352,36 @@ Grundelemente von Programmieren
 include::plantuml/myActivity.puml[]
 @enduml
 ----
+
+== 20.01.2022
+
+=== UML Diagramm (Klassendiagramm) Präsentation (kapitel 3 2 Anwendungsfalldiag)
+
+==== V-Model:
+
+==== Anwendungsfall
+
+[.line-overline]#Bsp:#
+
+noch unterstrichen -> line::
+
+Spiel -> spielen
+
+PKW -> transport für Personen und Güter
+
+[.line-through]#Anwendungsanalyse, Präsentation Folie 18#
+
+IMPORTANT: Akteuren, Assoziation (kein Pfeil), include (wichtiger als Vererbung)
+
+Inkrementell = kleine Schritte
+
+Wie kann man Vererbung verwenden? - Bild von der Tafel und dann selber zeichnen -> Aus 2 Klassen wird ein Objekt
+
+include und extends müssen gestrichelt sein
+
+\<<extens>> dazu schreiben
+
+IMPORTANT: Pfeile ganz richtig zeichnen
+
+IMPORTANT: genaue Ausformulierung der Anwendungsfälle (= use case)
+

@@ -436,4 +436,10 @@ IMPORTANT: 27, 45, 51, Conpients Level (Buch UML),
 
 Nicht wichtig: [.line-through]#29, ...#
 
-====
+==== Arten von Mengen
+
+image::disjoint.png[]
+
+https://www.math-only-math.com/disjoint-of-sets-using-Venn-diagram.html[Seite für die Erklärung]
+
+TIP: Nächstes Mal Aktivitätsdiagramm

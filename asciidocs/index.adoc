@@ -440,6 +440,8 @@ IMPORTANT: 27, 45, 51, Conpients Level (Buch UML),
 
 Nicht wichtig: [.line-through]#29, ...#
 
+IMPORTANT: Folien SS noch reinladen
+
 ==== Arten von Mengen
 
 image::disjoint.png[]

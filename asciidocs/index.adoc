@@ -440,6 +440,23 @@ IMPORTANT: 27, 45, 51, Conpients Level (Buch UML),
 
 Nicht wichtig: [.line-through]#29, ...#
 
+.Folienanzeige
+[%collapsible]
+//[%collapsible%open]
+====
+.Folie 29
+image::3_3_folie29.png[]
+
+.Folie 27
+image::3_3_folie27.png[]
+
+.Folie 45
+image::3_3_folie45.png[]
+
+.Folie 51
+image::3_3_folie51.png[]
+====
+
 IMPORTANT: Folien SS noch reinladen
 
 ==== Arten von Mengen

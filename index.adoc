@@ -18,6 +18,41 @@ ifdef::backend-html5[]
 
 == Demo
 
-[source, java]
+.Code
+[source,java]
 ----
+class Demo{
+    public void start(Stage stage) throws IOException {
+        ContextMenu contextMenu = new ContextMenu();
+        MenuItem menuItem1 = new MenuItem("Choice 1");
+        MenuItem menuItem2 = new MenuItem("Choice 2");
+        MenuItem menuItem3 = new MenuItem("Choice 3");
+        Label ausgabe = new Label();
+
+        menuItem3.setOnAction((event) -> {
+            ausgabe.setText("menuItem3");
+        });
+
+        menuItem2.setOnAction((event) -> {
+            ausgabe.setText("menuItem2");
+        });
+
+        menuItem1.setOnAction((event) -> {
+            ausgabe.setText("menuItem1");
+        });
+
+        contextMenu.getItems().addAll(menuItem1,menuItem2,menuItem3);
+
+        TextArea textArea = new TextArea();
+
+        textArea.setContextMenu(contextMenu);
+
+        VBox vBox = new VBox(textArea, ausgabe);
+
+        Scene scene = new Scene(vBox);
+        stage.setTitle("Hello!");
+        stage.setScene(scene);
+        stage.show();
+    }
+}
 ----

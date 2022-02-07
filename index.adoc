@@ -18,11 +18,12 @@ ifdef::backend-html5[]
 
 === Verbindung mit Alltag
 
-==== App rechtsklick für mehr Bearbeitung oder Infomationen
+App rechtsklick für mehr Bearbeitung oder Information
 
-Bps: Photoshop
+.Bps: Photoshop
+image:images/photoshopDemo.png[]
 
-image::images/photoshopDemo.png[]
+=== Erklärung
 
 == Demo
 

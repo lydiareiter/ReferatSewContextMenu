@@ -64,4 +64,4 @@ class Demo{
 ----
 
 .Ausgabe
-video::video/demo.mp4[width=1000]
+video::video/demo.mp4[width=500]

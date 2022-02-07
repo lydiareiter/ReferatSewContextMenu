@@ -22,6 +22,7 @@ ifdef::backend-html5[]
 
 Bps: Photoshop
 
+image::images/photoshopDemo.png[]
 
 == Demo
 

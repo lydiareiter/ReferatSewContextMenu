@@ -459,8 +459,42 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_demo">1. Demo</h2>
 <div class="sectionbody">
 <div class="listingblock">
+<div class="title">Code</div>
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="java"></code></pre>
+<pre class="CodeRay highlight"><code data-lang="java"><span style="color:#339;font-weight:bold">class</span> <span style="color:#B06;font-weight:bold">Demo</span>{
+    <span style="color:#088;font-weight:bold">public</span> <span style="color:#339;font-weight:bold">void</span> start(Stage stage) <span style="color:#088;font-weight:bold">throws</span> <span style="color:#C00;font-weight:bold">IOException</span> {
+        ContextMenu contextMenu = <span style="color:#080;font-weight:bold">new</span> ContextMenu();
+        <span style="color:#0a8;font-weight:bold">MenuItem</span> menuItem1 = <span style="color:#080;font-weight:bold">new</span> <span style="color:#0a8;font-weight:bold">MenuItem</span>(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Choice 1</span><span style="color:#710">&quot;</span></span>);
+        <span style="color:#0a8;font-weight:bold">MenuItem</span> menuItem2 = <span style="color:#080;font-weight:bold">new</span> <span style="color:#0a8;font-weight:bold">MenuItem</span>(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Choice 2</span><span style="color:#710">&quot;</span></span>);
+        <span style="color:#0a8;font-weight:bold">MenuItem</span> menuItem3 = <span style="color:#080;font-weight:bold">new</span> <span style="color:#0a8;font-weight:bold">MenuItem</span>(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Choice 3</span><span style="color:#710">&quot;</span></span>);
+        <span style="color:#0a8;font-weight:bold">Label</span> ausgabe = <span style="color:#080;font-weight:bold">new</span> <span style="color:#0a8;font-weight:bold">Label</span>();
+
+        menuItem3.setOnAction((event) -&gt; {
+            ausgabe.setText(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">menuItem3</span><span style="color:#710">&quot;</span></span>);
+        });
+
+        menuItem2.setOnAction((event) -&gt; {
+            ausgabe.setText(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">menuItem2</span><span style="color:#710">&quot;</span></span>);
+        });
+
+        menuItem1.setOnAction((event) -&gt; {
+            ausgabe.setText(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">menuItem1</span><span style="color:#710">&quot;</span></span>);
+        });
+
+        contextMenu.getItems().addAll(menuItem1,menuItem2,menuItem3);
+
+        <span style="color:#0a8;font-weight:bold">TextArea</span> textArea = <span style="color:#080;font-weight:bold">new</span> <span style="color:#0a8;font-weight:bold">TextArea</span>();
+
+        textArea.setContextMenu(contextMenu);
+
+        VBox vBox = <span style="color:#080;font-weight:bold">new</span> VBox(textArea, ausgabe);
+
+        Scene scene = <span style="color:#080;font-weight:bold">new</span> Scene(vBox);
+        stage.setTitle(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Hello!</span><span style="color:#710">&quot;</span></span>);
+        stage.setScene(scene);
+        stage.show();
+    }
+}</code></pre>
 </div>
 </div>
 </div>
@@ -469,7 +503,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="footer">
 <div id="footer-text">
 Version 1.0.0<br>
-Last updated 2022-02-07 10:21:10 +0100
+Last updated 2022-02-07 10:42:05 +0100
 </div>
 </div>
 </body>

@@ -21,7 +21,7 @@ ifdef::backend-html5[]
 App rechtsklick für mehr Bearbeitung oder Information
 
 .Bps: Photoshop
-image:images/photoshopDemo.png[]
+image:photoshopDemo.png[width=300]
 
 === Erklärung
 

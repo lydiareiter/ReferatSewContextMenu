@@ -21,7 +21,7 @@ ifdef::backend-html5[]
 App rechtsklick für mehr Aktionen
 
 .Bps: Photoshop
-image:photoshopDemo.png[width=300]
+image:photoshopDemo.png[width=300, theme=light]
 
 == Demo
 
@@ -65,4 +65,4 @@ class Demo{
 ----
 
 .Ausgabe
-video::video/demo.mp4[width=300]
+video::video/demo.mp4[theme=light, width=300]

@@ -1,7 +1,6 @@
 = Context Menu
 Lydia Reiter
 1.0.0, 2021-12-21
-ifndef::imagesdir[:imagesdir: images]
 //:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
 :sourcedir: ../src/main/java
 :icons: font
@@ -21,7 +20,7 @@ ifdef::backend-html5[]
 App rechtsklick für mehr Aktionen
 
 .Bps: Photoshop
-image:photoshopDemo.png[width=300, theme=light]
+image:images/photoshopDemo.png[width=300, theme=light]
 
 == Demo
 
@@ -65,4 +64,4 @@ class Demo{
 ----
 
 .Ausgabe
-video::../video/demo.mp4[width=300]
+video::video/demo.mp4[width=300]
